@@ -14,3 +14,29 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Add
+.DS_Store
+vendor/bundle
+/log/*.log.*
+
+# rails_config
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+### Vim temporary files
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### uploaded files
+public/uploads/*
+
+### ERD diagram of models
+erd.pdf
+
+### SSL
+keys
